@@ -1,4 +1,4 @@
-package Teste;
+package FichaUsuario;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class FichaCadastral extends BaseTest {
+public class FichaCadastralTest extends BaseTest {
 
     @Test
     public void testFichaCadastralUsuario(){
@@ -17,7 +17,7 @@ public class FichaCadastral extends BaseTest {
         navegador.findElement(By.xpath("//*[@id=\"enterimg\"]")).click();
 
         //Realizando o cadastro
-        navegador.findElement(By.cssSelector("input[placeholder=\"First Name\" ]:nth-of-type(1)")).sendKeys("Teste");
+        navegador.findElement(By.cssSelector("input[placeholder=\"First Name\" ]:nth-of-type(1)")).sendKeys("FichaUsuario");
         navegador.findElement(By.cssSelector("input[placeholder=\"Last Name\" ]:nth-of-type(1)")).sendKeys("Cadastro");
         navegador.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[2]/div/textarea")).sendKeys("Rua ABC Nº123");
         navegador.findElement(By.cssSelector("input[ng-model=\"EmailAdress\" ]:nth-of-type(1)")).sendKeys("acbb@tmee.com");

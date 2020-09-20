@@ -1,4 +1,4 @@
-package Basic;
+package CadastroUsuario;
 
 import org.junit.After;
 import org.junit.Before;

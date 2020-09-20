@@ -1,4 +1,4 @@
-package Teste;
+package FichaUsuario;
 
 import org.junit.After;
 import org.junit.Before;
